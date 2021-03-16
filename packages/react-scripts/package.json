@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
-  "version": "4.0.3",
-  "description": "Configuration and scripts for Create React App.",
+  "name": "@bimspot/react-scripts",
+  "version": "0.1.0",
+  "description": "bimspot flavoured configuration and scripts for Create React App with custom postcss config support.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "git://github.com/bimspot/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": "^10.12.0 || >=12.0.0"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/bimspot/create-react-app/issues"
   },
   "files": [
     "bin",
@@ -65,9 +65,11 @@
     "mini-css-extract-plugin": "0.11.3",
     "optimize-css-assets-webpack-plugin": "5.0.4",
     "pnp-webpack-plugin": "1.6.4",
-    "postcss-flexbugs-fixes": "4.2.1",
-    "postcss-loader": "3.0.0",
-    "postcss-normalize": "8.0.1",
+    "postcss": "^8.2.8",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-load-config": "^3.0.1",
+    "postcss-loader": "^4.2.0",
+    "postcss-normalize": "^9.0.0",
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "5.0.2",
     "prompts": "2.4.0",
