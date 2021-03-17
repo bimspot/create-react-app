@@ -1,6 +1,6 @@
 {
   "name": "@bimspot/react-scripts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "bimspot flavoured configuration and scripts for Create React App with custom postcss config support.",
   "repository": {
     "type": "git",
